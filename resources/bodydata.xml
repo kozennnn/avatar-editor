@@ -1,0 +1,188 @@
+<BodyData>
+	<!-- BODYS -->
+	<Part id="1" name="body_blueF.png" />
+	<Part id="2" name="body_darkF.png" />
+	<Part id="3" name="body_greenF.png" />
+	<Part id="4" name="body_redF.png" />
+	<Part id="5" name="body_whiteF.png" />
+	<Part id="6" name="body_yellowF.png" />
+
+	<!-- ARMS -->
+
+	<!-- Blue arms -->
+	<Part id="7" name="arm_blueA.png" flipped="true" offsetX="-30" flipX="150" offsetY="120" />
+	<Part id="8" name="arm_blueB.png" flipped="true" offsetX="-15" flipX="150" offsetY="120" />
+	<Part id="9" name="arm_blueC.png" flipped="true" offsetX="-40" flipX="150" offsetY="120" />
+	<Part id="10" name="arm_blueD.png" flipped="true" offsetX="-35" flipX="150" offsetY="120" />
+	<Part id="11" name="arm_blueE.png" flipped="true" offsetX="-25" flipX="150" offsetY="120" />
+	<!-- Black arms -->
+	<Part id="12" name="arm_darkA.png" flipped="true" offsetX="-30" flipX="150" offsetY="120" />
+	<Part id="13" name="arm_darkB.png" flipped="true" offsetX="-15" flipX="150" offsetY="120" />
+	<Part id="14" name="arm_darkC.png" flipped="true" offsetX="-40" flipX="150" offsetY="120" />
+	<Part id="15" name="arm_darkD.png" flipped="true" offsetX="-35" flipX="150" offsetY="120" />
+	<Part id="16" name="arm_darkE.png" flipped="true" offsetX="-25" flipX="150" offsetY="120" />
+	<!-- Green arms -->
+	<Part id="17" name="arm_greenA.png" flipped="true" offsetX="-30" flipX="150" offsetY="120" />
+	<Part id="18" name="arm_greenB.png" flipped="true" offsetX="-15" flipX="150" offsetY="120" />
+	<Part id="19" name="arm_greenC.png" flipped="true" offsetX="-40" flipX="150" offsetY="120" />
+	<Part id="20" name="arm_greenD.png" flipped="true" offsetX="-35" flipX="150" offsetY="120" />
+	<Part id="21" name="arm_greenE.png" flipped="true" offsetX="-25" flipX="150" offsetY="120" />
+	<!-- Red arms -->
+	<Part id="22" name="arm_redA.png" flipped="true" offsetX="-30" flipX="150" offsetY="120" />
+	<Part id="23" name="arm_redB.png" flipped="true" offsetX="-15" flipX="150" offsetY="120" />
+	<Part id="24" name="arm_redC.png" flipped="true" offsetX="-40" flipX="150" offsetY="120" />
+	<Part id="25" name="arm_redD.png" flipped="true" offsetX="-35" flipX="150" offsetY="120" />
+	<Part id="26" name="arm_redE.png" flipped="true" offsetX="-25" flipX="150" offsetY="120" />
+	<!-- White arms -->
+	<Part id="27" name="arm_whiteA.png" flipped="true" offsetX="-30" flipX="150" offsetY="120" />
+	<Part id="28" name="arm_whiteB.png" flipped="true" offsetX="-15" flipX="150" offsetY="120" />
+	<Part id="29" name="arm_whiteC.png" flipped="true" offsetX="-40" flipX="150" offsetY="120" />
+	<Part id="30" name="arm_whiteD.png" flipped="true" offsetX="-35" flipX="150" offsetY="120" />
+	<Part id="31" name="arm_whiteE.png" flipped="true" offsetX="-25" flipX="150" offsetY="120" />
+	<!-- Yellow arms -->
+	<Part id="32" name="arm_yellowA.png" flipped="true" offsetX="-30" flipX="150" offsetY="120" />
+	<Part id="33" name="arm_yellowB.png" flipped="true" offsetX="-15" flipX="150" offsetY="120" />
+	<Part id="34" name="arm_yellowC.png" flipped="true" offsetX="-40" flipX="150" offsetY="120" />
+	<Part id="35" name="arm_yellowD.png" flipped="true" offsetX="-35" flipX="150" offsetY="120" />
+	<Part id="36" name="arm_yellowE.png" flipped="true" offsetX="-25" flipX="150" offsetY="120" />
+
+	<!-- LEGS -->
+
+	<!-- Blue legs -->
+	<Part id="37" name="leg_blueA.png" flipped="true" offsetX="5" flipX="90" offsetY="190" />
+	<Part id="38" name="leg_blueB.png" flipped="true" offsetX="13" flipX="90" offsetY="205" />
+	<Part id="39" name="leg_blueC.png" flipped="true" offsetX="0" flipX="90" offsetY="200" />
+	<Part id="40" name="leg_blueD.png" flipped="true" offsetX="5" flipX="90" offsetY="195" />
+	<Part id="41" name="leg_blueE.png" flipped="true" offsetX="-15" flipX="105" offsetY="190" />
+	<!-- Black legs -->
+	<Part id="42" name="leg_blackA.png" flipped="true" offsetX="5" flipX="90" offsetY="190" />
+	<Part id="43" name="leg_blackB.png" flipped="true" offsetX="13" flipX="90" offsetY="205" />
+	<Part id="44" name="leg_blackC.png" flipped="true" offsetX="0" flipX="90" offsetY="200" />
+	<Part id="45" name="leg_blackD.png" flipped="true" offsetX="5" flipX="90" offsetY="195" />
+	<Part id="46" name="leg_blackE.png" flipped="true" offsetX="-15" flipX="105" offsetY="190" />
+	<!-- Green legs -->
+	<Part id="47" name="leg_greenA.png" flipped="true" offsetX="5" flipX="90" offsetY="190" />
+	<Part id="48" name="leg_greenB.png" flipped="true" offsetX="13" flipX="90" offsetY="205" />
+	<Part id="49" name="leg_greenC.png" flipped="true" offsetX="0" flipX="90" offsetY="200" />
+	<Part id="50" name="leg_greenD.png" flipped="true" offsetX="5" flipX="90" offsetY="195" />
+	<Part id="51" name="leg_greenE.png" flipped="true" offsetX="-15" flipX="105" offsetY="190" />
+	<!-- Red legs -->
+	<Part id="52" name="leg_redA.png" flipped="true" offsetX="5" flipX="90" offsetY="190" />
+	<Part id="53" name="leg_redB.png" flipped="true" offsetX="13" flipX="90" offsetY="205" />
+	<Part id="54" name="leg_redC.png" flipped="true" offsetX="0" flipX="90" offsetY="200" />
+	<Part id="55" name="leg_redD.png" flipped="true" offsetX="5" flipX="90" offsetY="195" />
+	<Part id="56" name="leg_redE.png" flipped="true" offsetX="-15" flipX="105" offsetY="190" />
+	<!-- White legs -->
+	<Part id="57" name="leg_whiteA.png" flipped="true" offsetX="5" flipX="90" offsetY="190" />
+	<Part id="58" name="leg_whiteB.png" flipped="true" offsetX="13" flipX="90" offsetY="205" />
+	<Part id="59" name="leg_whiteC.png" flipped="true" offsetX="0" flipX="90" offsetY="200" />
+	<Part id="60" name="leg_whiteD.png" flipped="true" offsetX="5" flipX="90" offsetY="195" />
+	<Part id="61" name="leg_whiteE.png" flipped="true" offsetX="-15" flipX="105" offsetY="190" />
+	<!-- Yellow legs -->
+	<Part id="62" name="leg_yellowA.png" flipped="true" offsetX="5" flipX="90" offsetY="190" />
+	<Part id="63" name="leg_yellowB.png" flipped="true" offsetX="13" flipX="90" offsetY="205" />
+	<Part id="64" name="leg_yellowC.png" flipped="true" offsetX="0" flipX="90" offsetY="200" />
+	<Part id="65" name="leg_yellowD.png" flipped="true" offsetX="5" flipX="90" offsetY="195" />
+	<Part id="66" name="leg_yellowE.png" flipped="true" offsetX="-15" flipX="105" offsetY="190" />
+
+	<!-- EYES -->
+
+	<Part id="67" name="eye_angry_blue.png" flipped="true" offsetX="35" flipX="65" offsetY="50" />
+	<Part id="68" name="eye_angry_green.png" flipped="true" offsetX="35" flipX="65" offsetY="50" />
+	<Part id="69" name="eye_angry_red.png" flipped="true" offsetX="35" flipX="65" offsetY="50" />
+	<Part id="70" name="eye_blue.png" flipped="true" offsetX="35" flipX="65" offsetY="50" />
+	<Part id="71" name="eye_closed_feminine.png" flipped="true" offsetX="35" flipX="65" offsetY="60" />
+	<Part id="72" name="eye_closed_happy.png" flipped="true" offsetX="40" flipX="60" offsetY="60" />
+	<Part id="73" name="eye_cute_dark.png" flipped="true" offsetX="35" flipX="65" offsetY="50" />
+	<Part id="74" name="eye_cute_light.png" flipped="true" offsetX="35" flipX="65" offsetY="50" />
+	<Part id="75" name="eye_dead.png" flipped="true" offsetX="50" flipX="55" offsetY="60" />
+	<Part id="76" name="eye_human.png" flipped="true" offsetX="35" flipX="65" offsetY="50" />
+	<Part id="77" name="eye_human_blue.png" flipped="true" offsetX="35" flipX="65" offsetY="50" />
+	<Part id="78" name="eye_human_green.png" flipped="true" offsetX="35" flipX="65" offsetY="50" />
+	<Part id="79" name="eye_human_red.png" flipped="true" offsetX="35" flipX="65" offsetY="50" />
+	<Part id="80" name="eye_psycho_dark.png" flipped="true" offsetX="35" flipX="65" offsetY="50" />
+	<Part id="81" name="eye_psycho_light.png" flipped="true" offsetX="35" flipX="65" offsetY="50" />
+	<Part id="82" name="eye_red.png" flipped="true" offsetX="35" flipX="65" offsetY="50" />
+	<Part id="83" name="eye_yellow.png" flipped="true" offsetX="35" flipX="65" offsetY="50" />
+
+	<!-- EYEBROWS -->
+
+	<Part id="84" name="eyebrowA.png" flipped="true" offsetX="40" flipX="70" offsetY="40" />
+	<Part id="85" name="eyebrowB.png" flipped="true" offsetX="40" flipX="70" offsetY="40" />
+	<Part id="86" name="eyebrowC.png" flipped="true" offsetX="35" flipX="70" offsetY="40" />
+
+	<!-- NOSES -->
+	<Part id="87" name="nose_brown.png" offsetX="78" offsetY="90" scale="0.8" />
+	<Part id="88" name="nose_green.png" offsetX="78" offsetY="90" scale="0.8" />
+	<Part id="89" name="nose_red.png" offsetX="81" offsetY="90" scale="0.8" />
+	<Part id="90" name="nose_yellow.png" offsetX="81" offsetY="90" scale="0.8" />
+
+	<!-- SNOTS -->
+
+	<Part id="91" name="snot_large.png" offsetX="97" offsetY="110" />
+	<Part id="92" name="snot_small.png" offsetX="97" offsetY="110" />
+
+	<!-- MOUTHES -->
+
+	<Part id="93" name="mouthA.png" offsetX="65" offsetY="130" />
+	<Part id="94" name="mouthB.png" offsetX="65" offsetY="130" />
+	<Part id="95" name="mouthC.png" offsetX="60" offsetY="130" />
+	<Part id="96" name="mouthD.png" offsetX="65" offsetY="130" />
+	<Part id="97" name="mouthE.png" offsetX="65" offsetY="130" />
+	<Part id="98" name="mouthF.png" offsetX="60" offsetY="130" />
+	<Part id="99" name="mouthG.png" offsetX="73" offsetY="130" />
+	<Part id="100" name="mouthH.png" offsetX="60" offsetY="130" />
+	<Part id="101" name="mouthI.png" offsetX="62" offsetY="130" />
+	<Part id="102" name="mouthJ.png" offsetX="62" offsetY="130" />
+
+	<!-- DETAILS -->
+
+	<!-- Blue details -->
+	<Part id="103" name="detail_blue_antenna_large.png" flipped="true" offsetX="35" flipX="80" offsetY="-20" />
+	<Part id="104" name="detail_blue_antenna_small.png" flipped="true" offsetX="40" flipX="80" offsetY="-5" />
+	<Part id="105" name="detail_blue_ear.png" flipped="true" offsetX="35" flipX="80" offsetY="0" />
+	<Part id="106" name="detail_blue_ear_round.png" flipped="true" offsetX="35" flipX="80" offsetY="0" />
+	<Part id="107" name="detail_blue_eye.png" flipped="true" offsetX="15" flipX="105" offsetY="-40" />
+	<Part id="108" name="detail_blue_horn_large.png" flipped="true" offsetX="35" flipX="80" offsetY="0" />
+	<Part id="109" name="detail_blue_horn_small.png" flipped="true" offsetX="40" flipX="80" offsetY="15" />
+	<!-- Dark details -->
+	<Part id="110" name="detail_dark_antenna_large.png" flipped="true" offsetX="35" flipX="80" offsetY="-20" />
+	<Part id="111" name="detail_dark_antenna_small.png" flipped="true" offsetX="40" flipX="80" offsetY="-5" />
+	<Part id="112" name="detail_dark_ear.png" flipped="true" offsetX="35" flipX="80" offsetY="0" />
+	<Part id="113" name="detail_dark_ear_round.png" flipped="true" offsetX="35" flipX="80" offsetY="0" />
+	<Part id="114" name="detail_dark_eye.png" flipped="true" offsetX="15" flipX="105" offsetY="-40" />
+	<Part id="115" name="detail_dark_horn_large.png" flipped="true" offsetX="35" flipX="80" offsetY="0" />
+	<Part id="116" name="detail_dark_horn_small.png" flipped="true" offsetX="40" flipX="80" offsetY="15" />
+	<!-- Green details -->
+	<Part id="117" name="detail_green_antenna_large.png" flipped="true" offsetX="35" flipX="80" offsetY="-20" />
+	<Part id="118" name="detail_green_antenna_small.png" flipped="true" offsetX="40" flipX="80" offsetY="-5" />
+	<Part id="119" name="detail_green_ear.png" flipped="true" offsetX="35" flipX="80" offsetY="0" />
+	<Part id="120" name="detail_green_ear_round.png" flipped="true" offsetX="35" flipX="80" offsetY="0" />
+	<Part id="121" name="detail_green_eye.png" flipped="true" offsetX="15" flipX="105" offsetY="-40" />
+	<Part id="122" name="detail_green_horn_large.png" flipped="true" offsetX="35" flipX="80" offsetY="0" />
+	<Part id="123" name="detail_green_horn_small.png" flipped="true" offsetX="40" flipX="80" offsetY="15" />
+	<!-- Red details -->
+	<Part id="124" name="detail_red_antenna_large.png" flipped="true" offsetX="35" flipX="80" offsetY="-20" />
+	<Part id="125" name="detail_red_antenna_small.png" flipped="true" offsetX="40" flipX="80" offsetY="-5" />
+	<Part id="126" name="detail_red_ear.png" flipped="true" offsetX="35" flipX="80" offsetY="0" />
+	<Part id="127" name="detail_red_ear_round.png" flipped="true" offsetX="35" flipX="80" offsetY="0" />
+	<Part id="128" name="detail_red_eye.png" flipped="true" offsetX="15" flipX="105" offsetY="-40" />
+	<Part id="129" name="detail_red_horn_large.png" flipped="true" offsetX="35" flipX="80" offsetY="0" />
+	<Part id="130" name="detail_red_horn_small.png" flipped="true" offsetX="40" flipX="80" offsetY="15" />
+	<!-- White details -->
+	<Part id="131" name="detail_white_antenna_large.png" flipped="true" offsetX="35" flipX="80" offsetY="-20" />
+	<Part id="132" name="detail_white_antenna_small.png" flipped="true" offsetX="40" flipX="80" offsetY="-5" />
+	<Part id="133" name="detail_white_ear.png" flipped="true" offsetX="35" flipX="80" offsetY="0" />
+	<Part id="134" name="detail_white_ear_round.png" flipped="true" offsetX="35" flipX="80" offsetY="0" />
+	<Part id="135" name="detail_white_eye.png" flipped="true" offsetX="15" flipX="105" offsetY="-40" />
+	<Part id="136" name="detail_white_horn_large.png" flipped="true" offsetX="35" flipX="80" offsetY="0" />
+	<Part id="137" name="detail_white_horn_small.png" flipped="true" offsetX="40" flipX="80" offsetY="15" />
+	<!-- Yellow details -->
+	<Part id="138" name="detail_yellow_antenna_large.png" flipped="true" offsetX="35" flipX="80" offsetY="-20" />
+	<Part id="139" name="detail_yellow_antenna_small.png" flipped="true" offsetX="40" flipX="80" offsetY="-5" />
+	<Part id="140" name="detail_yellow_ear.png" flipped="true" offsetX="35" flipX="80" offsetY="0" />
+	<Part id="141" name="detail_yellow_ear_round.png" flipped="true" offsetX="35" flipX="80" offsetY="0" />
+	<Part id="142" name="detail_yellow_eye.png" flipped="true" offsetX="15" flipX="105" offsetY="-40" />
+	<Part id="143" name="detail_yellow_horn_large.png" flipped="true" offsetX="35" flipX="80" offsetY="0" />
+	<Part id="144" name="detail_yellow_horn_small.png" flipped="true" offsetX="40" flipX="80" offsetY="15" />
+</BodyData>
