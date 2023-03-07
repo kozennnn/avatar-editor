@@ -20,7 +20,6 @@ class App:
         tree = ElementTree.parse("./resources/bodydata.xml")
         map = {}
         for node in tree.iter():
-            print(node.tag)
             if node.tag == "Category":
                 for part in node.iter():
                     if part.attrib.get("id"):

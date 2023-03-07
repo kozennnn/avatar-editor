@@ -5,11 +5,13 @@ from src.data import SpriteSheet, Node
 offsetX = 75
 offsetY = 80
 
-
 class EditorView:
     def __init__(self, parts: {}) -> None:
+        self.next_button = None
+        self.previous_button = None
         self.parts = parts
         self.handled = False
+        self.selected_category = 0
         self.tree = Node(value=4)
         self.tree.insert(22)
         self.tree.insert(54)
@@ -37,18 +39,44 @@ class EditorView:
                 self.parts.get(id)["offsetY"] + offsetY))
             window.blit(sprite, (self.parts.get(id)["offsetX"] + offsetX, self.parts.get(id)["offsetY"] + offsetY))
 
-        self.grid = GridPartComponent(310, 35, 6, 5, self.get_parts_by_category("Details"), sheet, self.tree)
-        print(self.get_parts_by_category("Details"))
+        self.grid = GridPartComponent(310, 35, 6, 5, self.parts_by_category(self.categories()[self.selected_category]), sheet, self.tree)
+
+        self.previous_button = pygame.Rect(310, 432, 39, 31)
+        self.next_button = pygame.Rect(592, 432, 39, 31)
+        previous_button = pygame.image.load("./resources/textures/left_button.png").convert_alpha()
+        window.blit(previous_button, (310, 432))
+        next_button = pygame.image.load("./resources/textures/right_button.png").convert_alpha()
+        window.blit(next_button, (592, 432))
+
         self.grid.render(window)
 
-    def get_parts_by_category(self, category: str) -> {}:
+    def parts_by_category(self, category: str) -> {}:
         items = {}
         for key, value in self.parts.items():
             if value["category"] == category:
                 items[key] = value
         return items
 
+    def categories(self) -> [str]:
+        categories = []
+        for key, value in self.parts.items():
+            if categories.count(value["category"]) == 0:
+                categories.append(value["category"])
+        return categories
+
     def handle_events(self) -> None:
+        if self.next_button.collidepoint(pygame.mouse.get_pos()) and pygame.mouse.get_pressed()[0] and not self.handled:
+            self.handled = True
+            if self.selected_category + 1 > len(self.categories()) - 1:
+                self.selected_category = 0
+            else:
+                self.selected_category += 1
+        if self.previous_button.collidepoint(pygame.mouse.get_pos()) and pygame.mouse.get_pressed()[0] and not self.handled:
+            self.handled = True
+            if self.selected_category - 1 < 0:
+                self.selected_category = len(self.categories()) - 1
+            else:
+                self.selected_category -= 1
         for children in self.grid.childrens:
             if children.mouseover() and pygame.mouse.get_pressed()[0] and not self.handled:
                 self.handled = True
