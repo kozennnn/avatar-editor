@@ -15,7 +15,7 @@
 	<Part id="9" name="arm_blueC.png" flipped="true" offsetX="-40" flipX="150" offsetY="120" />
 	<Part id="10" name="arm_blueD.png" flipped="true" offsetX="-35" flipX="150" offsetY="120" />
 	<Part id="11" name="arm_blueE.png" flipped="true" offsetX="-25" flipX="150" offsetY="120" />
-	<!-- Black arms -->
+	<!-- Dark arms -->
 	<Part id="12" name="arm_darkA.png" flipped="true" offsetX="-30" flipX="150" offsetY="120" />
 	<Part id="13" name="arm_darkB.png" flipped="true" offsetX="-15" flipX="150" offsetY="120" />
 	<Part id="14" name="arm_darkC.png" flipped="true" offsetX="-40" flipX="150" offsetY="120" />
@@ -54,12 +54,12 @@
 	<Part id="39" name="leg_blueC.png" flipped="true" offsetX="0" flipX="90" offsetY="200" />
 	<Part id="40" name="leg_blueD.png" flipped="true" offsetX="5" flipX="90" offsetY="195" />
 	<Part id="41" name="leg_blueE.png" flipped="true" offsetX="-15" flipX="105" offsetY="190" />
-	<!-- Black legs -->
-	<Part id="42" name="leg_blackA.png" flipped="true" offsetX="5" flipX="90" offsetY="190" />
-	<Part id="43" name="leg_blackB.png" flipped="true" offsetX="13" flipX="90" offsetY="205" />
-	<Part id="44" name="leg_blackC.png" flipped="true" offsetX="0" flipX="90" offsetY="200" />
-	<Part id="45" name="leg_blackD.png" flipped="true" offsetX="5" flipX="90" offsetY="195" />
-	<Part id="46" name="leg_blackE.png" flipped="true" offsetX="-15" flipX="105" offsetY="190" />
+	<!-- Dark legs -->
+	<Part id="42" name="leg_darkA.png" flipped="true" offsetX="5" flipX="90" offsetY="190" />
+	<Part id="43" name="leg_darkB.png" flipped="true" offsetX="13" flipX="90" offsetY="205" />
+	<Part id="44" name="leg_darkC.png" flipped="true" offsetX="0" flipX="90" offsetY="200" />
+	<Part id="45" name="leg_darkD.png" flipped="true" offsetX="5" flipX="90" offsetY="195" />
+	<Part id="46" name="leg_darkE.png" flipped="true" offsetX="-15" flipX="105" offsetY="190" />
 	<!-- Green legs -->
 	<Part id="47" name="leg_greenA.png" flipped="true" offsetX="5" flipX="90" offsetY="190" />
 	<Part id="48" name="leg_greenB.png" flipped="true" offsetX="13" flipX="90" offsetY="205" />

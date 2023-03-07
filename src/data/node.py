@@ -44,6 +44,18 @@ class Node:
                 else:
                     tree = tree.right
 
+    def find(self, value: int) -> bool:
+        found = False
+        if value == self.value:
+            found = True
+        elif value < self.value:
+            if self.left is not None:
+                found = self.left.find(value)
+        else:
+            if self.right is not None:
+                found = self.right.find(value)
+        return found
+
     def prefix_course(self):
         parcours = [self.value]
         if self.left is not None:

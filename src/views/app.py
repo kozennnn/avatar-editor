@@ -1,6 +1,6 @@
 import pygame
 import xml.etree.ElementTree as ElementTree
-
+from .editor_view import EditorView
 
 class App:
 
@@ -10,6 +10,7 @@ class App:
         pygame.display.set_caption("Avatar Editor")
         self.window = pygame.display.set_mode((640, 480))
         self.window.fill((255, 255, 255))
+        self.render()
         print(self.parts)
     def __del__(self) -> None:
         pygame.quit()
@@ -41,6 +42,10 @@ class App:
                 else:
                     map[id]["scale"] = 1
         return map
+
+    def render(self) -> None:
+        editor = EditorView(self.parts)
+        editor.render(self.window)
 
     def run(self) -> None:
         running = True
