@@ -2,8 +2,8 @@ import pygame
 import xml.etree.ElementTree as ElementTree
 from .editor_view import EditorView
 
-class App:
 
+class App:
     def __init__(self) -> None:
         pygame.init()
 
@@ -11,7 +11,7 @@ class App:
         self.window = pygame.display.set_mode((640, 480))
         self.window.fill((255, 255, 255))
         self.render()
-        print(self.parts)
+
     def __del__(self) -> None:
         pygame.quit()
 
@@ -20,37 +20,43 @@ class App:
         tree = ElementTree.parse("./resources/bodydata.xml")
         map = {}
         for node in tree.iter():
-            if node.attrib.get("id"):
-                id = int(node.attrib.get("id"))
-                map[id] = {}
-                map[id]["name"] = node.attrib.get("name")
-                map[id]["flipped"] = node.attrib.get("flipped") is not None
-                if node.attrib.get("offsetX"):
-                    map[id]["offsetX"] = int(node.attrib.get("offsetX"))
-                else:
-                    map[id]["offsetX"] = 0
-                if node.attrib.get("offsetY"):
-                    map[id]["offsetY"] = int(node.attrib.get("offsetY"))
-                else:
-                    map[id]["offsetY"] = 0
-                if node.attrib.get("flipX"):
-                    map[id]["flipX"] = int(node.attrib.get("flipX"))
-                else:
-                    map[id]["flipX"] = 0
-                if node.attrib.get("scale"):
-                    map[id]["scale"] = float(node.attrib.get("scale"))
-                else:
-                    map[id]["scale"] = 1
+            print(node.tag)
+            if node.tag == "Category":
+                for part in node.iter():
+                    if part.attrib.get("id"):
+                        id = int(part.attrib.get("id"))
+                        map[id] = {}
+                        map[id]["name"] = part.attrib.get("name")
+                        map[id]["flipped"] = part.attrib.get("flipped") is not None
+                        map[id]["category"] = node.attrib.get("name")
+                        if part.attrib.get("offsetX"):
+                            map[id]["offsetX"] = int(part.attrib.get("offsetX"))
+                        else:
+                            map[id]["offsetX"] = 0
+                        if part.attrib.get("offsetY"):
+                            map[id]["offsetY"] = int(part.attrib.get("offsetY"))
+                        else:
+                            map[id]["offsetY"] = 0
+                        if part.attrib.get("flipX"):
+                            map[id]["flipX"] = int(part.attrib.get("flipX"))
+                        else:
+                            map[id]["flipX"] = 0
+                        if part.attrib.get("scale"):
+                            map[id]["scale"] = float(part.attrib.get("scale"))
+                        else:
+                            map[id]["scale"] = 1
         return map
 
     def render(self) -> None:
-        editor = EditorView(self.parts)
-        editor.render(self.window)
+        self.editor = EditorView(self.parts)
+        self.editor.render(self.window)
 
     def run(self) -> None:
         running = True
         while running:
+            self.editor.render(self.window)
             pygame.display.flip()
+            self.editor.handle_events()
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
                     running = False

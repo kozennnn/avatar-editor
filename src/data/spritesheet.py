@@ -21,7 +21,7 @@ class SpriteSheet:
         return self.spritesheet.subsurface(pygame.Rect(x, y, w, h))
 
     def get_sprite(self, name):
-        print(self.map)
         rect = pygame.Rect(self.map[name]["x"], self.map[name]["y"],
                        self.map[name]["width"], self.map[name]["height"])
         return pygame.transform.flip(self.spritesheet.subsurface(rect), True, False)
+

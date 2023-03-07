@@ -11,6 +11,7 @@ class GridPartComponent:
         self.parts = parts
         self.spritesheet = spritesheet
         self.tree = tree
+        self.childrens = []
 
     def render(self, window: pygame.Surface) -> None:
         for (index, key) in enumerate(self.parts):
@@ -20,6 +21,8 @@ class GridPartComponent:
             selected = False
             if self.tree.find(key):
                 selected = True
-            PartComponent(x, y, name, self.spritesheet, selected).render(window)
+            component = PartComponent(x, y, key, name, self.spritesheet, self.tree, selected)
+            component.render(window)
+            self.childrens.append(component)
 
 
